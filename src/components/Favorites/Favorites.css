@@ -14,6 +14,7 @@
 }
 
 .favorites__list {
+   
     margin-bottom: 24px;
 }
 
@@ -26,8 +27,34 @@
     transition: all 0.2s linear;
 }
 
+
+
+.favorites__save:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
 .favorites__save:hover {
     cursor: pointer;
     opacity: 0.9;
     transition: all 0.2s linear;
+}
+
+.favorites__save:hover:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    transition: all 0.2s linear;
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.favorit__delete{
+    background-color: white;
+    border-radius: 100%;
+    border: white;
+    cursor: pointer;
 }
