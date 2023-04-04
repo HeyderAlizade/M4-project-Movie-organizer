@@ -1,10 +1,4 @@
-# Module 4 project – Movie organizer.
-
-Starter for Module 4 project in Algoritmika Coding Bootcamp
-
-## How to run
-
-```
-npm install
-npm start
-```
+# Module 4 project – Movie organizer
+#### The App helps organize your favorite movie list 
+#### Also creates IMDb links
+#### HTML/ CSS/ JavaScript/ React JS/ Redux/ Axios/ React-router-dom
